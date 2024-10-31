@@ -1,0 +1,53 @@
+body{
+	background-image: url(https://i.pinimg.com/736x/d2/70/fe/d270fef639e92880f87f0af1481ae41d.jpg)
+}
+#tampilan{
+	background-color:rgba(255, 239, 213, 0.8) ;
+	width:1000px;
+	height: 4300px;
+	margin: auto;
+	padding:5px;
+}
+#header{
+	background-color: lightpink;
+	height: 200px;
+	width: 1000px;
+	overflow: hidden;
+}
+#teks{
+	background-color: rgba(253, 245, 230, 0.8);
+	height: 20px;
+	width: 997px;
+	overflow: hidden;
+	border-style: dotted;
+	border-color: black;
+}
+#menu{
+	background: #836953;
+	height: 30px;
+	width: 1000px;
+
+}
+#kiri{
+	background: #f5deb3;
+	height: 4300px;
+	width: 1000px;
+	float: left;
+	border-style: none;
+	border-color: black;
+}
+.box {
+	width: 450px;
+	height: 220px;
+	padding: 10px;
+	border: 5px solid: #333;
+	margin: 0 auto;
+	background-color: #6f4e37;
+}
+.outline-box {
+	width: 300px;
+	height: 200px;
+	outline: 2px dashed #836953;
+	padding: 20px;
+	background-color: #80461b;
+}
