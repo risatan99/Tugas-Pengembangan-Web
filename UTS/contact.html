@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Poppy's Florist-Contact</title>
+	<link rel="stylesheet" type="text/css" href="homecss1.css">
+</head>
+<style type="text/css">
+.container-header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-form-container {
+    width: 100%;
+    max-width: 1085px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact-form-container h1 {
+    font-size: 24px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+.contact-form-container p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4a4a4a;
+}
+
+.contact-form span {
+    color: red;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    display: inline-block;
+    background-color: #49796b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #8fbc8f;
+}
+</style>
+<body>
+<header>
+	<nav class="navbar">
+    <div class="logo-container">
+        <img src="https://static.vecteezy.com/system/resources/previews/023/451/147/non_2x/flower-bouquet-illustration-png.png" style="width:70px; height: 70px;" class="logo" alt="">
+    </div>
+	<div class="container-menu">
+        <ul class="menu">
+            <li><a class="active" href="http://localhost/UTS/Home1.html">Home</a></li>
+            <li><a class="active" href="http://localhost/UTS/Shop.html">Shop</a></li>
+            <li><a class="active" href="http://localhost/UTS/about1.html">About</a></li>
+            <li><a class="active" href="http://localhost/UTS/contact.html">Contact</a></li>
+        </ul>
+        <div class="tombol">
+        	&#9776;
+        </div>
+    </div>
+    </nav>
+	<script src="javaHome.js"></script>
+</header>
+    <div id="teks">
+        <marquee scrolldelay="100" onmouseover ="this.stop()" onmouseout ="this.start()" style="font-size: 18px;">Welcome to Poppy's Florist!!</marquee> 
+    </div>
+<div class="container-header">
+  <img src="https://focastock.com/wp-content/uploads/2017/07/P7040092.jpg" alt="bunga" style="width:100%; height: 600%;">
+  <div class="centered"><h1 id="#contact" style="text-align: center; font-size: 50px">Get in Touch</h1>
+	<p style="text-align: center; font-size: 20px;">Hubungi kami melalui Whatsapp dan Instagram. Kami dengan senang hati akan membantu Anda dengan semua keinginanmu dengan bunga.</p></div>
+</div><br>
+<br>
+<br>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1015263.3850252293!2d106.1192351802656!3d-6.280475011922092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7917ba61cf1%3A0x7f0a9f667d00205e!2sToko%20bunga%20Poppy%20Florist!5e0!3m2!1sid!2sid!4v1731976553640!5m2!1sid!2sid" width="1120" height="600" style="border:0; margin-left: 80px; margin-right: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div><br>
+    <div class="contact-form-container">
+        <h1>Have Any Questions?</h1>
+        <p>Questions around Custom Flowers and more can be sent via E-mail and Whatsapp.</p>
+        <p>Feel Free to let us know your feedback!</p>
+
+        <form action="/submit-form" method="POST" class="contact-form">
+            <label for="name">Name <span>*</span></label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email <span>*</span></label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Comment or Message <span>*</span></label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<style>
+    footer {
+    background-color: #49796b;
+    padding: 20px;
+    text-align: center;
+    }
+    footer p {
+        color: white;
+    }
+    footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    footer ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    footer ul li a {
+        color: #555;
+        text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+    <footer>
+    <div class="payment-methods">
+    <h2>We Accept</h2>
+    <div class="logos">
+      <img src="images/bca.webp" alt="BCA">
+      <img src="images/mandiri.webp" alt="Mandiri">
+      <img src="images/ovo.webp" alt="OVO">
+      <img src="images/mastercard.webp" alt="Mastercard">
+      <img src="images/visa.webp" alt="Visa">
+      <img src="images/qris.webp" alt="QRIS">
+    </div>
+  </div>
+  <div class="links">
+    <a class="active" href="http://localhost/UTS/Home1.html">Home</a>
+    <a class="active" href="http://localhost/UTS/Shop.html">Shop</a>
+    <a class="active" href="http://localhost/UTS/about1.html">About</a>
+    <a class="active" href="http://localhost/UTS/contact.html">Contact</a>
+  </div>
+  <div class="social-media">
+    <a href="https://web.whatsapp.com/"><img src="images/whata.png" alt="WhatsApp"></a>
+    <a href="#"><img src="images/ig.png" alt="Instagram"></a>
+    <a href="#"><img src="images/mail.jpg" alt="Email"></a>
+    <a href="#"><img src="images/tiktok.png" alt="TikTok"></a>
+  </div><br>
+  <br>
+  <br>
+  <hr>
+  <br>
+    <p>&copy; 2024 Design By Nabilah Hamida. Poppy's Florist. Hak Cipta Dilindungi.</p>
+    </footer>
+</div>
+</body>
+</html>

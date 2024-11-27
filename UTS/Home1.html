@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Poppy's Florist-Home</title>
+	<link rel="stylesheet" href="homecss1.css">
+</head>
+<style type="text/css">
+.container-header{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slider-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slider-item {
+    min-width: 20%; 
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.slider-item img {
+    width: 100%;
+}
+.slider-item h3 {
+    margin: 10px 0 5px;
+}
+.slider-item p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.slider-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.slider-item a:hover {
+    color: none;
+}
+.navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.navigation button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navigation button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+</style>
+<body>
+<header>
+	<nav class="navbar">
+    <div class="logo-container">
+        <img src="https://static.vecteezy.com/system/resources/previews/023/451/147/non_2x/flower-bouquet-illustration-png.png" style="width: 70px; height: 70px;" alt="flower" class="logo">
+    </div>
+	<div class="container-menu">
+        <ul class="menu">
+            <li><a class="active" href="http://localhost/UTS/Home1.html">Home</a></li>
+            <li><a class="active" href="http://localhost/UTS/Shop.html">Shop</a></li>
+            <li><a class="active" href="http://localhost/UTS/about1.html">About</a></li>
+            <li><a class="active" href="http://localhost/UTS/contact.html">Contact</a></li>
+        </ul>
+        <div class="tombol">
+        	&#9776;
+        </div>
+    </div>
+    </nav>
+	<script src="javaHome.js"></script>
+</header>
+    <div id="teks">
+        <marquee scrolldelay="100" onmouseover ="this.stop()" onmouseout ="this.start()" style="font-size: 18px;">Welcome to Poppy's Florist!!</marquee> 
+    </div>
+<div class="container-header">
+  <img src="https://justdisciple.com/wp-content/uploads/2021/03/pablo-6-4.png" alt="bunga" style="width:100%; height: 600%;">
+  <div class="centered"><h1 style="text-align: center; font-size: 50px">"Flowers Are A Smile From Heaven"</h1></div>
+</div><br>
+<h2 style="margin-left: 60px;">Featured Product</h2>
+    <div class="slider-container">
+        <div class="slider-wrapper">
+            <div class="slider-item">
+            <a href="https://millionbloom.co.id/products/the-adeline">
+                <img src="images/TheAdeline.webp" alt="Item 1">
+                <h3>The Adeline Bouquet</h3>
+                <p>Rp 235.000</p>
+            </a>
+            </div>
+            <div class="slider-item">
+            <a href="https://millionbloom.co.id/products/the-victoria">
+                <img src="images/The-Victoria.webp" alt="Item 2">
+                <h3>The Victoria Bouquet</h3>
+                <p>Rp 385.000</p>
+            </a>
+            </div>
+            <div class="slider-item">
+            <a href="https://millionbloom.co.id/products/the-juliet">
+                <img src="images/The-Juliet.webp" alt="Item 3">
+                <h3>The Juliet Boquet</h3>
+                <p>Rp 485.000</p>
+            </a>
+            </div>
+            <div class="slider-item">
+            <a href="https://millionbloom.co.id/products/rose-poetry-bouquet">
+                <img src="images/Rose-Poetry-Bouquet.webp" alt="Item 4">
+                <h3>Rose Poetry Bouquet</h3>
+                <p>Rp 485.000</p>
+            </a>
+            </div>
+            <div class="slider-item">
+            <a href="https://millionbloom.co.id/products/velvet-love-bouquet">
+                <img src="images/Velvet-Love.webp" alt="Item 5">
+                <h3>Velvet Love Bouquet</h3>
+                <p>Rp 485.000</p>
+            </a>
+            </div>
+            <div class="slider-item">
+            <a href="https://millionbloom.co.id/products/blooming-days">
+                <img src="images/Blooming-days.webp" alt="Item 5">
+                <h3>Blooming Day Bouquet</h3>
+                <p>Rp 365.000</p>
+            </a>
+            </div>
+            <div class="slider-item">
+            <a href="https://millionbloom.co.id/products/sweet-summer">
+                <img src="images/Sweet-Summer.webp" alt="Item 5">
+                <h3>Sweet Summer Bouquet</h3>
+                <p>Rp 365.000</p>
+            </a>
+            </div>
+            <div class="slider-item">
+            <a href="https://millionbloom.co.id/products/rosabelle-hand-bouquet">
+                <img src="images/Rosabelle.webp" alt="Item 5">
+                <h3>Rosabelle Hand Bouquet</h3>
+                <p>Rp 385.000</p>
+            </a>
+            </div>
+            <div class="slider-item">
+            <a href="https://millionbloom.co.id/products/sunset-lover-bouquet">
+                <img src="images/Sunset-Lover.webp" alt="Item 5">
+                <h3>Sunset Lover Bouquet</h3>
+                <p>Rp 485.000</p>
+            </a>
+            </div>
+            <div class="slider-item">
+            <a href="https://millionbloom.co.id/products/majestic-pink-roses-with-baby-breath-bouquet">
+                <img src="images/Majestic-Pink-Roses.jpg" alt="Item 5">
+                <h3>Majestic Pink Rose Bouquet</h3>
+                <p>Rp 485.000</p>
+            </a>
+            </div><br>
+        </div><br>
+        <div class="navigation">
+            <button id="prev">❮</button>
+            <button id="next">❯</button>
+        </div>
+    </div>
+
+    <script>
+        const sliderWrapper = document.querySelector('.slider-wrapper');
+        const sliderItems = document.querySelectorAll('.slider-item');
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+
+        let currentIndex = 0;
+
+        prevButton.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateSlider();
+            }
+        });
+
+        nextButton.addEventListener('click', () => {
+            if (currentIndex < sliderItems.length - 5) { // 5 adalah jumlah item yang tampil
+                currentIndex++;
+                updateSlider();
+            }
+        });
+
+        function updateSlider() {
+            const itemWidth = sliderItems[0].clientWidth;
+            sliderWrapper.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+        }
+    </script>
+<br>
+<br>
+  <div class="product-container">
+    <div class="image-container">
+      <img src="https://millionbloom.co.id/cdn/shop/files/Bella-Rouge-Bouquet_4_7994d22c-057e-4bcc-83a0-20ed0057898d.jpg?v=1700211949&width=750" alt="Bella Rouge Bouquet">
+    </div>
+    <div class="text-container">
+      <h1>Bella Rouge Bouquet</h1>
+      <p>
+        Buket Bunga dari Poppy's Florist perpaduan sempurna yang terdiri atas Rose Merah dan Filler dirangkai indah menjadi satu kesatuan. Dibungkus dalam wrapping paper premium berhias ornamen pita. Hadiah terbaik bagi orang terkasih, cocok untuk momen seperti Hari Valentine, Ulang Tahun, Anniversary, dan Hari Suka Cita lainnya.
+      </p>
+      <button class="buy-now" style="margin-left: 40px">Buy Now</button>
+    </div>
+  </div>
+
+<p></p><br>
+</body>
+<style>
+    footer {
+    background-color: #49796b;
+    padding: 20px;
+    text-align: center;
+    }
+    footer p {
+        color: white;
+    }
+    footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    footer ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    footer ul li a {
+        color: #555;
+        text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+    <footer>
+    <div class="payment-methods">
+    <h2>We Accept</h2>
+    <div class="logos">
+      <img src="images/bca.webp" alt="BCA">
+      <img src="images/mandiri.webp" alt="Mandiri">
+      <img src="images/ovo.webp" alt="OVO">
+      <img src="images/mastercard.webp" alt="Mastercard">
+      <img src="images/visa.webp" alt="Visa">
+      <img src="images/qris.webp" alt="QRIS">
+    </div>
+  </div>
+  <div class="links">
+    <a class="active" href="http://localhost/UTS/Home1.html">Home</a>
+    <a class="active" href="http://localhost/UTS/Shop.html">Shop</a>
+    <a class="active" href="http://localhost/UTS/about1.html">About</a>
+    <a class="active" href="http://localhost/UTS/contact.html">Contact</a>
+  </div>
+  <div class="social-media">
+    <a href="https://web.whatsapp.com/"><img src="images/whata.png" alt="WhatsApp"></a>
+    <a href="#"><img src="images/ig.png" alt="Instagram"></a>
+    <a href="#"><img src="images/mail.jpg" alt="Email"></a>
+    <a href="#"><img src="images/tiktok.png" alt="TikTok"></a>
+  </div><br>
+  <br>
+  <br>
+  <hr>
+  <br>
+    <p>&copy; 2024 Design By Nabilah Hamida. Poppy's Florist. Hak Cipta Dilindungi.</p>
+    </footer>
+</div>
+</body>
+</style>
+</html>
